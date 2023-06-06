@@ -1,48 +1,70 @@
-# week_21
+# Getting Started with Create React App
 
-1. Обязательно ли скачивать и устанавливать какие-то библиотеки для начала работы с React?
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    Для работы с отдельными элементами React необязательно устанавливать библиотеки.
+## Available Scripts
 
-2. Перечислите плюсы и минусы SPA приложений?
+In the project directory, you can run:
 
-    ### Преимущества Single Page Applications
+### `npm start`
 
-    - **SPA работают везде.** Всё, что нужно для SPA — поддержка JavaScript. Такие сайты хорошо работают и на десктопе, и в вебе, могут отчасти заменить полноценные мобильные приложения.
-    - **Возможность задействовать большие объёмы данных**. Размер приложения и используемых им данных не ограничен памятью устройства.
-    - **Скорость**. Одна страница со всем необходимым не только экономит время на повторную загрузку данных, но и повышает производительность работы.
-    - **Возможности разработки**. Разработчикам доступны фреймворки, которые упрощают создание архитектуры проекта и предоставляют немало готовых элементов для работы.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-    ### Недостатки SPA
+### `npm test`
 
-    - **Необходимость интернет-соединения**. Без доступа к сети использовать такой софт невозможно. Но если даже десктопное ПО использует в работе внешние базы данных, то доступ к интернету необходим в любом случае.
-    - **Трудности с SEO**. Особенности SPA усложняют или делают невозможным процесс индексации поисковыми системами всех модулей приложения. Это может вызвать трудности с оптимизацией.
-    - **Не работает у пользователей с отключенной поддержкой JS**. Многие отключают отображение JS-элементов у себя в браузерах, а Single Page Application использует их, поэтому может не работать.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Как создать React-приложение?
+### `npm run build`
 
-    npm install -g create-react-app
-    create-react-app firstapp
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-4. Является ли React фреймворком? А какие ещё есть веб-фронтенд фреймворки?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-    Формально React не является фреймворком, он даже не рассчитан исключительно для web. Он используется для визуализации и в связке с другими библиотеками. React и ReactDOM часто обсуждаются в том же пространстве и используются для решения тех же проблем, что и другие настоящие фреймворки для веб-разработки. Когда мы ссылаемся на React как на «фреймворк», мы подразумеваем это разговорное понимание.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-    Фронтенд фреймворки: Angular, Vuejs, jQuery, Emberjs
+### `npm run eject`
 
-5. Какой командой можно добавить библиотеку или компонент в свой файл?
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-    npm install --save
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-6. Найдите три внешних React-компонента, которые вам могут пригодиться в будущем (*например, react-color, react-google-maps и пр.*)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-    react-burger-menu
-    react-credit-cards
-    react-player
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-7. Какой основной файл SPA-проекта, где мы делаем изменения?
+## Learn More
 
-    src/App.js
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-8. Зачем нужна папка build и какой командой мы генерируем её содержимое?
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
